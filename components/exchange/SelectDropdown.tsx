@@ -55,9 +55,9 @@ export function SelectDropdown({
                         {selectedOption ? (
                             <>
                                 {selectedOption.icon && (
-                                    <span className="text-xl">{selectedOption.icon}</span>
+                                    <span className="">{selectedOption.icon}</span>
                                 )}
-                                <span className="font-semibold text-green-900">
+                                <span className=" text-green-900">
                                     {selectedOption.name}
                                 </span>
                             </>
