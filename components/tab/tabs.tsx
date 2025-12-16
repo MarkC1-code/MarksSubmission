@@ -21,7 +21,7 @@ export default function PillTabs({ tabs, activeTab, onChange }: PillTabsProps) {
                         key={tab}
                         onClick={() => onChange(tab)}
                         className={cn(
-                            "relative z-10 flex-1 rounded-full py-2.5 text-xs font-semibold transition-colors sm:text-sm",
+                            "relative z-10 flex-1 rounded-full py-2.5 cursor-pointer text-xs font-semibold transition-colors sm:text-sm",
                             activeTab === tab
                                 ? "text-white"
                                 : "text-gray-500 hover:text-gray-700"
